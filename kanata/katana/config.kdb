@@ -1,0 +1,64 @@
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+  grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab  q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps a    s    d    f    g    h    j    k    l    ;    '    ret
+  lsft z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc            ralt rmet rctl
+)
+
+(deflayer Colemak-dh     
+  _     q     w     e     r     t     _     _     y     u     i     o     p     '    
+  esc   @aS   @sM   @dA   @fC   g     _     _     h     @jC   @kA   @lM   @sS   _
+  @eCap     z     x     c     v     _     _     b     n     m   S-/   /     \
+  _     _     ,     @sNav tab   _     _     del   @bNum .     _     _
+  _     _     _              spc            _     _     _
+)
+
+(deflayer capsy
+  _     S-[     S-]     [     ]     ret     _     _     y     u     S-6     o     p     '    
+  esc   S-4   S-9   S-0   =   g     _     _     left     down   up   right   @sS   _
+  @eCap     bspc     '     S-'     S-5     b     _     _     ,     .     S-/   /     \
+  _     _     ,     @sNav tab   _     _     del   @bNum .     _     _
+  _     _     _              spc            _     _     _
+)
+
+(deflayer Num  
+  _     1   2   3   4   5   _     _     6   7   8   9   0   '    
+  +     @aS   @sM   @dA   @fC  5 _     _     6     7     8     9     0     S-`
+  _     S--   -     =     [     ]     _     _     S-[   S-]   ;     S-;   S-\
+  _     M-1   M-2   M-3   M-4   M-5   _     _     M-6   M-7   M-8   M-0
+  _     _     _              _              _     _     _
+)
+
+(deflayer Nav 
+  _     _    home  up    end   pgup  _     _     _     _     _     _     _    _    
+  =     @ml  left  down  rght  pgdn  _     _     _     _     _     _     _    _
+  _     _    _     _     _     _     _     _     _     _     _     _     _
+  _     _    _     _     _     _     _     _     _     _     _     _
+  _     _    _              _              _     _     _
+)
+
+(defalias
+  bNum (tap-hold 200 200 bspc (layer-toggle Num))
+  sNav (tap-hold 200 200 ret (layer-toggle Nav))
+  eCap (tap-hold 200 200 esc (layer-toggle capsy))
+)
+
+(defalias
+  aS (tap-hold 200 200 a lsft)
+  sS (tap-hold 200 200 scln lsft)
+  sM (tap-hold 200 200 s lmet)
+  lM (tap-hold 200 200 l lmet)
+  jC (tap-hold 200 200 j lctl)
+  fC (tap-hold 200 200 f lctl)
+  dA (tap-hold 200 200 d lalt)
+  kA (tap-hold 200 200 k lalt)
+)
+
+(defalias
+  ml (macro home S-end)
+)

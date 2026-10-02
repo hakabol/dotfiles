@@ -1,0 +1,18 @@
+{"timestamp": "2026-06-07T12:23:47.029321+05:30", "level": "INFO", "name": "durdraw.ui_curses", "msg": "UserInterface created", "data": {}}
+{"timestamp": "2026-06-07T12:23:58.793434+05:30", "level": "INFO", "name": "durdraw.ui_curses", "msg": "UserInterface created", "data": {}}
+{"timestamp": "2026-06-07T12:23:58.803522+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 23}}
+{"timestamp": "2026-06-07T12:23:58.804083+05:30", "level": "INFO", "name": "durdraw.movie", "msg": "movie initialized", "data": {"sizeX": 80, "sizeY": 23}}
+{"timestamp": "2026-06-07T12:23:58.858857+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.859325+05:30", "level": "INFO", "name": "durdraw.movie", "msg": "movie initialized", "data": {"sizeX": 80, "sizeY": 24}}
+{"timestamp": "2026-06-07T12:23:58.861409+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.864834+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.868371+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.872078+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.875680+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.879353+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.884033+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.887648+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.891288+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.894919+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.898530+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
+{"timestamp": "2026-06-07T12:23:58.902209+05:30", "level": "INFO", "name": "durdraw.frame", "msg": "frame initialized", "data": {"width": 80, "height": 24}}
