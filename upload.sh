@@ -1,4 +1,4 @@
-cp ~/katana katana
+cp -r ~/katana katana
 
 git add .
 git commit -m "idk"
